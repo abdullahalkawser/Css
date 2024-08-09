@@ -1,0 +1,36 @@
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(255, 0, 230);
+    display: grid;
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 50px 50px;
+}
+.item{
+    background-color:chartreuse ;
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+}
+.item2{
+    background-color:blue ;
+    grid-column: 2/2;
+    grid-row: 1/2;
+
+
+}
+.item3{
+    background-color:darkgoldenrod ;
+    grid-column: 1/2;
+    grid-row: 2/2;
+
+}
+.item4{
+    background-color:crimson ;
+    /* grid-column: 1/2;
+    grid-row: 1/2; */
+
+}
+
+
+

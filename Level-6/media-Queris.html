@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media-Queris</title>
+    <style>
+        /* Extra small devices (phones, 600px and down)
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */ */
+        .com{
+            height: 200px;
+            width: 200px;
+            background-color: chartreuse;
+        }
+        /* @media screen and (min-width: 400px) {
+            .com{
+                height: 500px;
+            width: 400px;
+            background-color: rgb(255, 0, 0);
+            }
+            
+        } */
+        @media screen and (min-width: 400px ) and (max-width:500px) {
+            .com{
+                height: 500px;
+            width: 400px;
+            background-color: rgb(0, 8, 255);
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>media-Queris</h1>
+    <div class="com">
+        box-111
+    </div>
+</body>
+</html>
